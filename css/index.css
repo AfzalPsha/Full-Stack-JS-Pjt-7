@@ -126,3 +126,27 @@ nav img:last-child{
     margin-top: 48px;   
     cursor: pointer;
 }
+@media only screen and (max-width: 797px){
+  .intro-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-section{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
+  .nav-items{
+    display: none;
+  }
+  .text{
+    width: auto;
+  }
+  .right-section{
+    width: auto;
+  }
+}
